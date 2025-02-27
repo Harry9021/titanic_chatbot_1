@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+matplotlib
+seaborn
+langchain
+langchain-openai
+streamlit
+python-multipart
+pydantic
+plotly
