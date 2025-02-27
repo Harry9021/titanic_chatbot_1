@@ -17,8 +17,8 @@ def start_servers():
     
     # For Unix/Linux/MacOS
     else:
-        subprocess.Popen(['gnome-terminal', '--', 'python', '-m', 'uvicorn', 'app.api:app', '--host', '0.0.0.0', '--port', '8000'])
-        subprocess.Popen(['gnome-terminal', '--', 'streamlit', 'run', 'app/streamlit_app.py'])
+        subprocess.Popen(['python', '-m', 'uvicorn', 'app.api:app', '--host', '0.0.0.0', '--port', '8000'])
+        subprocess.Popen(['streamlit', 'run', 'app/streamlit_app.py'])
 
 if __name__ == "__main__":
     # Check for OpenAI API key
