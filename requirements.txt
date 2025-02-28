@@ -11,3 +11,5 @@ streamlit
 python-multipart
 pydantic
 plotly
+scikit-learn
+numpy

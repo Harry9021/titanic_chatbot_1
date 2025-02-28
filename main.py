@@ -1,6 +1,13 @@
 import os
 import sys
 import subprocess
+import streamlit as st
+
+st.set_page_config(
+    page_title="Titanic Chatbot",
+    page_icon="🚢",
+    layout="wide"
+)
 
 # Add the project root to the Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
